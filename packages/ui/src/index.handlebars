@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Reactopus UI</title>
+
+    {{#if isProduction }}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.7.0/umd/react.production.min.js"
+        integrity="sha256-Kp5mFJFLIDsslDJq6aFwiMjInEPYvGGIv9vJC4OVDKU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.7.0/umd/react-dom.production.min.js"
+        integrity="sha256-xixlgkPf9CzPN/EUUtGgGBjI411qsydrrgDTKwZvI3s=" crossorigin="anonymous"></script>
+    {{/if}}
+
+    {{#if isDevelopment }}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.7.0/umd/react.development.js"
+        integrity="sha256-uwLMddyDt7zG9OIPPbgTZbI1cY3HeWGT+yZ6ztMi1yQ=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.7.0/umd/react-dom.development.js"
+        integrity="sha256-8jPTVHXs6bvSDJGbREw2Kb+egskns+10wOv76aeaXgg=" crossorigin="anonymous"></script>
+    {{/if}}
+
+</head>
+
+<body>
+    <div id="root"></div>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+{
+    "version": "3.4.3",
+    "compilerOptions": {
+        "baseUrl": "./src",
+        "target": "es5",
+        "module": "commonjs",
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "importHelpers": true,
+        "experimentalDecorators": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "moduleResolution": "node",
+        "downlevelIteration": true,
+        "lib": [
+            "es6",
+            "es7",
+            "dom"
+        ],
+        "typeRoots": [
+            "./node_modules/@types"
+        ],
+        "jsx": "react",
+        "noUnusedLocals": false,
+        "strictNullChecks": false,
+        "removeComments": false
+    },
+    "include": [
+      "./src/**/*.ts",
+      "./src/**/*.tsx"
+    ],
+    "compileOnSave": false
+}
